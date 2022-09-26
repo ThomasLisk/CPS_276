@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Form Project</title>
+  </head>
+  <body>
+    <div class="container">
+        <form class="row g-3">
+            <div class="col-md-6">
+              <label for="fname" class="form-label">First Name</label>
+            </div>
+              <input type="text" class="form-control" id="fname">
+            
+            <div class="col-md-6">
+              <label for="lname" class="form-label">Last Name</label>
+            </div>
+              <input type="text" class="form-control" id="lname">
+            
+            <div class="col-12">
+              <label for="inputAddress" class="form-label">Address</label>
+            </div>
+              <input type="text" class="form-control" id="inputAddress" >
+            
+            <div class="col-md-6">
+              <label for="inputCity" class="form-label">City</label>
+            </div>
+              <input type="text" class="form-control" id="inputCity">
+            
+            <div class="col-md-4">
+              <label for="inputState" class="form-label">State</label>
+            </div>
+              <select id="inputState" class="form-select" >
+                <option selected>Michigan</option>
+                <option>Kansas</option>
+                <option>Florida</option>
+                <option>New York</option>
+                <option>Washington</option>
+              </select>
+            </div>
+            <div class="col-md-2">
+              <label for="inputZip" class="form-label">Zip</label>
+            </div>
+              <input type="text" class="form-control" id="inputZip">
+            </div>
+            <div class="col-12">
+              <div class="form-check">
+                
+                <label><input type="radio" name="Gender" value="Male" > Male</label>
+                <label><input type="radio" name="Gender" value="Female" > Female</label>
+              </div>
+            </div>
+            <div class="col-12">
+              <button type="submit" class="btn btn-primary">Sign in</button>
+            </div>
+          </form>
+        </div>
+        <p>Size:</p>
+<label><input type="radio" name="size" value="small" > Small</label>
+<label><input type="radio" name="size" value="medium" checked > Medium</label>
+<label><input type="radio" name="size" value="large" > Large</label>
+  </body>
+</html>
